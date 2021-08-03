@@ -1,0 +1,87 @@
+body.mainbackground {
+	background-color: #3975d7;
+}
+
+div {
+	border-radius: 25px;
+	border: 2px solid #efefef;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+	font-family: cursive;
+}
+
+label {
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+div#mainDiv {
+	border-style: groove;
+	background: #efefef;
+	border-color: #c8c8c8;
+	font-size: 20px;
+	border-radius: 13px;
+	width: 40%;
+	padding-bottom: 30px;
+	padding-top: 5px;
+	height: 10px;
+}
+
+div#mainDiv input.button {
+	border: 3px solid #00337f;
+	border-radius: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: #00337f;
+	height: 30px;
+	width: 25%;
+	float: center;
+	padding-left: 15px;
+}
+
+div#registerDiv, div#searchDiv {
+	border-style: groove;
+	background: #efefef;
+	border-color: #c8c8c8;
+	font-size: 20px;
+	border-radius: 13px;
+	width: 40%;
+	display: none;
+	height: 200px;
+}
+
+div#registerDiv div.fieldAlignment, div#searchDiv div.fieldAlignment {
+	width: 90%;
+	height: 0px;
+	padding-top: 5px;
+}
+
+div#registerDiv input, div#registerDiv select, div#searchDiv input, div#searchDiv select
+	{
+	border-radius: 5px;
+	border-width: thin;
+	/* float: right; */
+	padding-right: 55px;
+}
+
+div#registerDiv input.button, div#searchDiv input.button {
+	border: 3px solid #00337f;
+	border-radius: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: #00337f;
+	height: 30px;
+	width: 25%;
+	float: right;
+	padding-left: 15px;
+}
+
+div#errorDiv {
+	display: none;
+}
+
+table, th, td, tr {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
